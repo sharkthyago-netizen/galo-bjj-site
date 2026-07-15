@@ -36,6 +36,15 @@
   text-transform: uppercase;
 }
 
+.contact-info {
+  display: grid;
+  gap: 12px;
+}
+
+.contact-info a {
+  width: fit-content;
+}
+
 a:focus-visible,
 button:focus-visible,
 input:focus-visible,
@@ -43,6 +52,68 @@ select:focus-visible,
 textarea:focus-visible {
   outline: 3px solid var(--red);
   outline-offset: 4px;
+}
+
+@media (max-width: 600px) {
+  .schedule {
+    padding-top: 46px;
+    padding-bottom: 46px;
+  }
+
+  .schedule .section-heading {
+    margin-bottom: 24px;
+  }
+
+  .schedule h2 {
+    font-size: 2.35rem;
+  }
+
+  .schedule .section-description {
+    font-size: 0.92rem;
+    line-height: 1.45;
+  }
+
+  .schedule-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .schedule-day {
+    min-height: 0;
+    padding: 14px;
+    gap: 16px;
+  }
+
+  .schedule-day-header {
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .schedule-day-header span {
+    font-size: 1.35rem;
+  }
+
+  .schedule-day-header strong {
+    padding: 6px 7px;
+    font-size: 0.62rem;
+  }
+
+  .schedule-classes {
+    gap: 8px;
+  }
+
+  .schedule-classes div {
+    padding: 10px;
+  }
+
+  .schedule-classes time {
+    font-size: 0.72rem;
+    margin-bottom: 5px;
+  }
+
+  .schedule-classes h3 {
+    font-size: 1rem;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

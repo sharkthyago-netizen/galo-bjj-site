@@ -33,10 +33,11 @@ O arquivo `sitemap.xml` desta pasta pode ser enviado manualmente ao Google Searc
 
 ## Pendências de conteúdo real
 
-Antes de uma otimização final de SEO local, confirme:
+Informações atuais confirmadas:
 
-- endereço completo;
-- telefone ou WhatsApp;
-- e-mail, se houver;
-- relação institucional/comercial exata com o Atlético Mineiro;
-- se o formulário deve enviar para WhatsApp, e-mail ou outro serviço.
+- localização: Vila Olímpica do Atlético Mineiro;
+- rota: https://maps.app.goo.gl/cssdXY2iuHUrDwDz5;
+- WhatsApp: (31) 99893-4596;
+- e-mail: não há;
+- relação institucional: as aulas de Jiu-Jitsu e Muay-thai acontecem dentro das dependências da Vila Olímpica, clube do Atlético Mineiro;
+- formulário: envia mensagem para o WhatsApp.

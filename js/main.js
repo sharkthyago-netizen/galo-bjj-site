@@ -84,5 +84,14 @@ document.addEventListener('keydown', event => {
 
 document.querySelector('.contact-form').addEventListener('submit', event => {
   event.preventDefault();
-  alert('Interesse registrado localmente. Para concluir, conecte este formulário ao WhatsApp, e-mail ou serviço de captação de leads.');
+  const form = event.currentTarget;
+  const data = new FormData(form);
+  const message = [
+    'Olá! Quero agendar uma aula experimental no Galo Jiu-Jitsu.',
+    `Nome: ${data.get('nome') || ''}`,
+    `WhatsApp: ${data.get('whatsapp') || ''}`,
+    `Interesse: ${data.get('interesse') || ''}`,
+    `Mensagem: ${data.get('mensagem') || ''}`
+  ].join('\n');
+  window.open(`https://wa.me/5531998934596?text=${encodeURIComponent(message)}`, '_blank', 'noopener');
 });
