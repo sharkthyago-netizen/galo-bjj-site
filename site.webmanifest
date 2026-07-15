@@ -1,0 +1,18 @@
+{
+  "name": "Galo Jiu-Jitsu | Atlético BJJ",
+  "short_name": "Galo BJJ",
+  "description": "Aulas de Jiu-Jitsu Kids, Jiu-Jitsu adulto e Muay-thai.",
+  "start_url": "/galobjj/",
+  "scope": "/galobjj/",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "assets/logo-oficial-small.png",
+      "sizes": "480x289",
+      "type": "image/png"
+    }
+  ]
+}
