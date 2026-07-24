@@ -12,24 +12,27 @@ Site estático responsivo em HTML, CSS e JavaScript.
 - `assets/`
 - `site.webmanifest`
 - `sitemap.xml`
+- `robots.txt`
 - `llms.txt`
 - imagens e vídeos otimizados na raiz do projeto
 
 ## Publicação
 
-Para publicar na Hostinger dentro do domínio da Fikup, envie todo o conteúdo desta pasta para:
+O site é publicado na raiz do domínio próprio:
 
 ```text
-public_html/galobjj
+https://atleticobjj.com.br/
 ```
 
-A URL esperada é:
+Na Hostinger, conecte o repositório GitHub ao branch `main` e deixe o caminho de instalação vazio para publicar em:
 
 ```text
-https://www.fikup.com.br/galobjj/
+public_html
 ```
 
-O arquivo `sitemap.xml` desta pasta pode ser enviado manualmente ao Google Search Console e ao Bing Webmaster Tools. O `robots.txt` efetivo continua sendo o da raiz do domínio `fikup.com.br`, porque crawlers não usam `robots.txt` dentro de subpastas.
+Ative a implantação automática no hPanel para publicar cada novo `push` no branch `main`.
+
+O arquivo `sitemap.xml` pode ser enviado ao Google Search Console e ao Bing Webmaster Tools. O `robots.txt` na raiz informa o endereço do sitemap aos mecanismos de busca.
 
 ## Pendências de conteúdo real
 
